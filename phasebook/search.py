@@ -26,9 +26,7 @@ def search_users(args):
     """
 
     # Implement search here!
-
     priority_order = ["id", "name", "age", "occupation"]
-    
     # Sorting keys based on priority_order
     keys = list(args.keys())
     sorted_keys = [key for key in priority_order if key in keys]
